@@ -2,10 +2,10 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://gitlab.com/OrangeFox/device/beryllium.git -b fox_9.0"
+export DT_LINK="https://github.com/Mikesew1320/TECNO-CD6-TWRP-Tree -b android-10.0"
 
-export DEVICE="beryllium"
-export OEM="xiaomi"
+export DEVICE="CD6"
+export OEM="TECNO"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
@@ -22,11 +22,11 @@ DEPS=(
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=Sushrut1101"
+export EXTRA_CMD="export OF_MAINTAINER=MikaelYeAbLij"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
-export OF_USE_LATEST_MAGISK=true
+export OF_USE_LATEST_MAGISK=false
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
